@@ -1,37 +1,66 @@
-Visão Geral do Projeto
- O CaniPet é uma plataforma online voltada para a adoção de animais domésticos, com foco em promover a interação entre adotantes e pets disponíveis para adoção, além de oferecer a possibilidade de cadastrar lares temporários para animais. A plataforma possibilita o cadastro de usuários, pets para adoção, lares temporários e oferece funcionalidades de acompanhamento dos pedidos de adoção, proporcionando uma experiência simples e eficiente tanto para quem deseja adotar quanto para quem deseja abrigar temporariamente um pet.
-Funcionalidades principais:
-•	Cadastro de Usuários: Permite que os usuários se registrem na plataforma para realizar adoções ou oferecer lares temporários.
-•	Cadastro de Pets para Adoção: Usuários podem cadastrar animais para adoção, com detalhes sobre o pet (nome, idade, raça, etc.).
-•	Cadastro de Lar Temporário: Permite que os usuários ofereçam um lar temporário para animais.
-•	Homepage: Exibe uma lista de pets disponíveis para adoção.
-•	Acompanhamento de Pedidos de Adoção: Página dedicada à verificação do status dos pedidos de adoção feitos pelos usuários.
- Tecnologias e Ferramentas Utilizadas
-Backend:
-•	PHP: Linguagem de programação utilizada para a construção da lógica do backend.
-•	Laravel: Framework PHP utilizado para o desenvolvimento da aplicação, facilitando o desenvolvimento com recursos como roteamento, ORM (Eloquent), validação de dados, entre outros.
-Frontend:
-•	HTML: Linguagem usada para estruturar as páginas da aplicação.
-•	CSS: Linguagem utilizada para o estilo das páginas.
-•	Bootstrap: Framework CSS para a construção de interfaces responsivas e modernas, facilitando a criação de páginas com boa usabilidade.
-Banco de Dados:
-•	MySQL: Sistema de gerenciamento de banco de dados relacional utilizado para armazenar informações dos usuários, pets, lares temporários e pedidos de adoção.
-Ferramentas de Desenvolvimento:
-•	XAMPP: Pacote de softwares que inclui o Apache, MySQL, PHP, e Perl, utilizado para criar um ambiente local de desenvolvimento.
-•	Visual Studio Code: Editor de código utilizado para a escrita e gerenciamento do código-fonte.
-•	HeidiSQL: Ferramenta gráfica para gerenciamento de banco de dados MySQL, utilizada para facilitar a administração e manipulação do banco de dados.
- Uso
-Cadastro de Usuários
-1.	Acesse a página de Cadastro.
-2.	Preencha os campos obrigatórios como nome, email e senha.
-3.	Após o cadastro, você será redirecionado para a página inicial onde poderá interagir com a plataforma.
-Cadastro de Pets
-1.	O usuário autenticado pode cadastrar um pet para adoção, incluindo informações como nome, idade, raça, fotos, entre outras.
-2.	O cadastro ficará disponível na homepage para visualização de outros usuários.
-Cadastro de Lar Temporário
-1.	Usuários autenticados podem oferecer um lar temporário para pets através de um formulário com informações sobre as condições do lar.
-Página de Adoção
-1.	Na homepage, você encontrará os animais disponíveis para adoção.
-2.	Ao se interessar por algum pet, o usuário pode solicitar a adoção e acompanhar o status do pedido na página de Status de Adoção.
-Acompanhamento de Pedidos
-1.	Na página Status de Adoção, o usuário pode visualizar o status de seus pedidos de adoção, como pendente, aprovado ou rejeitado.
+<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+
+<p align="center">
+<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
+<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+</p>
+
+## About Laravel
+
+Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+
+- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- [Powerful dependency injection container](https://laravel.com/docs/container).
+- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
+- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
+- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
+- [Robust background job processing](https://laravel.com/docs/queues).
+- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+
+Laravel is accessible, powerful, and provides tools required for large, robust applications.
+
+## Learning Laravel
+
+Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+
+You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+
+If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+
+## Laravel Sponsors
+
+We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+
+### Premium Partners
+
+- **[Vehikl](https://vehikl.com/)**
+- **[Tighten Co.](https://tighten.co)**
+- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
+- **[64 Robots](https://64robots.com)**
+- **[Cubet Techno Labs](https://cubettech.com)**
+- **[Cyber-Duck](https://cyber-duck.co.uk)**
+- **[Many](https://www.many.co.uk)**
+- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
+- **[DevSquad](https://devsquad.com)**
+- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
+- **[OP.GG](https://op.gg)**
+- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
+- **[Lendio](https://lendio.com)**
+
+## Contributing
+
+Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+
+## Code of Conduct
+
+In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+## Security Vulnerabilities
+
+If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+
+## License
+
+The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
